@@ -18,7 +18,7 @@ function App() {
     <ThemeProvider>
       <ReviewsProvider>
       <TooltipProvider delayDuration={300}>
-        <BrowserRouter basename="/Reviews-project">
+        <BrowserRouter>
           <SidebarProvider>
             <AppSidebar />
             <SidebarInset>
